@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/button[@name='complete_lines']" position="after">
+      <button string="Fill with all"
+          name="complete_all" colspan="2"
+          help="Fill with all products"/>
+    </xpath>
+</data>

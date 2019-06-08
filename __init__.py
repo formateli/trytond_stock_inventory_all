@@ -3,9 +3,10 @@
 # the full copyright notices and license terms.
 
 from trytond.pool import Pool
-from .inventory import *
+from . import inventory
+
 
 def register():
     Pool.register(
-        Inventory,
+        inventory.Inventory,
         module='stock_inventory_all', type_='model')

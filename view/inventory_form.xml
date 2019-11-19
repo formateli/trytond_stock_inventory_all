@@ -2,7 +2,7 @@
 <!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
 this repository contains the full copyright notices and license terms. -->
 <data>
-    <xpath expr="/form/group[@id='group_buttons']/group[@id='buttons']/button[@name='count']" position="replace">
+    <xpath expr="/form/group[@id='buttons']/button[@name='count']" position="replace">
       <button string="Fill with all"
           name="complete_all"
           help="Fill with all products"/>
